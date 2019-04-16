@@ -1,0 +1,19 @@
+note:
+node_modules file contains the express project generator. It has nothing to do with project.
+
+when retrieve data from mongodb, use '-_id' syntax to avoid get the '_id' that is a default filed.
+ex:			get 'restaurant_name'
+			should type 'restaurant_name -_id' 
+
+in router folder, '/' is '/RouterName'.Because the app.use('path', RouterName) contains 'path' parameter.
+ex: get('/', callback()) in router folder means,
+	get will be performed in the path '/RouterName'
+
+module.exports = mongoose.model('Users', UserSchema);
+the object we export is 'Users';
+
+progress:
+1, generate the express project structure;
+2, current router: only home page;
+3, next:    design login page (how do we prompt login page?);
+            loading map;

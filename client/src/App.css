@@ -1,0 +1,173 @@
+.App {
+  position: absolute;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+  /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#searchbox {
+  font-family: 'Times' ;
+  text-emphasis: bold;
+}
+#search {
+  border-width: 50px;
+  border-radius: 15px;
+  background-color: coral;
+  width: 210px;
+  height: 100px;
+  text-align: center;
+  font-family: Times;
+  position: absolute;
+  opacity: 0.8;
+  z-index: 15;
+  padding: 5px;
+  margin-bottom: 1vw;
+  float: left;
+}
+
+#check-boxes {
+  margin-top: 120px;
+}
+
+#restaurant_box_a
+{
+  padding: 0.01em;
+  margin: 4em;
+  z-index: 15;
+  width: 100%;
+}
+
+#restaurant_box_b
+{
+  width: 85%;
+  height: 100%;
+  border-width: medium;
+  border-color: blue;
+  background-color: whitesmoke;
+  /* margin: 1em 0 0 1em; */
+  margin-top: 50px;
+  margin-left: -45px;
+}
+
+#menu
+{
+  z-index: 50;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+.container{
+  position: absolute;
+  align-content: center;
+  z-index: 50;
+  margin-top: 20px;
+}
+
+
+/* Bar and bm are for the Sidebar which were npm installed from 'react-burger-menu' */
+#Bar {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: white;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #01babe;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

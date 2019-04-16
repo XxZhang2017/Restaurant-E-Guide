@@ -1,0 +1,34 @@
+{
+  "name": "newark_solution_1_jae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
+    "start": "node myexpress/bin/www",
+    "server": "nodemon myexpress/bin/www",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express-generator": "^4.16.0",
+    "nodemon": "^1.18.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafagaia/Just-in-Time-Menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafagaia/Just-in-Time-Menu/issues"
+  },
+  "homepage": "https://github.com/rafagaia/Just-in-Time-Menu#readme"
+}
